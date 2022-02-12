@@ -1,0 +1,127 @@
+ul {
+  list-style-type: none;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0%;
+  overflow: hidden;
+  background-color: slategrey;
+  position: fixed;
+  transition: all 2s ease-out;
+  display: inline;
+}
+
+p:first-child {
+  color: slategray;
+}
+
+.current {
+  background-color: salmon;
+}
+
+body {
+  margin: 0;
+}
+
+/* Add a top margin to avoid content overlay */
+.main {
+  margin-top: 70px; 
+  text-align: center;
+}
+
+.title-text {
+  padding: 30px;
+  text-align: center;
+}
+.para {
+  text-align: center;
+}
+
+.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div {
+  transition-property: opacity, left, top, height;
+  transition-duration: 3s, 5s;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to pink on hover */
+li a:hover {
+  background-color: lightpink;
+}
+
+@media only screen and (max-width: 600px) {
+  div {
+    background-color: lavender;
+  }
+  /* #navbar {
+    list-style-type: none;
+    /* margin-right: 10px; */
+    /* padding: 0; */
+    /* width: 15%;
+    background-color:slategrey;
+    height: 100%; /* Full height */
+    /* position: fixed; Make it stick, even on scroll */ 
+    /* overflow: auto; Enable scrolling if the sidenav has too much content */
+  /* }
+  body {
+    margin-left: 20px;
+  } */ 
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+p {
+  font-family: fantasy;
+  text-align: left;
+}
+
+.contact {
+  margin-top: 30;
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  top: 0.15em;
+  display: inline;
+  vertical-align: bottom;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
