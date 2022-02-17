@@ -75,19 +75,6 @@ li a:hover {
   div {
     background-color: lavender;
   }
-  /* #navbar {
-    list-style-type: none;
-    /* margin-right: 10px; */
-    /* padding: 0; */
-    /* width: 15%;
-    background-color:slategrey;
-    height: 100%; /* Full height */
-    /* position: fixed; Make it stick, even on scroll */ 
-    /* overflow: auto; Enable scrolling if the sidenav has too much content */
-  /* }
-  body {
-    margin-left: 20px;
-  } */ 
 }
 
 a:hover {
